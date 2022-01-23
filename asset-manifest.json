@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/fake-youtube/static/js/main.943538cc.js",
+    "main.js": "/fake-youtube/static/js/main.ccb975d6.js",
     "index.html": "/fake-youtube/index.html",
-    "main.943538cc.js.map": "/fake-youtube/static/js/main.943538cc.js.map"
+    "main.ccb975d6.js.map": "/fake-youtube/static/js/main.ccb975d6.js.map"
   },
   "entrypoints": [
-    "static/js/main.943538cc.js"
+    "static/js/main.ccb975d6.js"
   ]
 }
