@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.c5f785e6.js",
-    "index.html": "/index.html",
-    "main.c5f785e6.js.map": "/static/js/main.c5f785e6.js.map"
+    "main.js": "/fake-youtube/static/js/main.c5f785e6.js",
+    "index.html": "/fake-youtube/index.html",
+    "main.c5f785e6.js.map": "/fake-youtube/static/js/main.c5f785e6.js.map"
   },
   "entrypoints": [
     "static/js/main.c5f785e6.js"
