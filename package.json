@@ -1,6 +1,5 @@
 {
   "name": "front-end",
-  "homepage": "https://real-chaos.github.io/fake-youtube",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
