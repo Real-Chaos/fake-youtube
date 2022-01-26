@@ -3,6 +3,9 @@ import { Routes, Route } from 'react-router-dom'
 
 import Home from './components/Home'
 
+import './styles/global.css'
+import './styles/homepage.css'
+
 function App() {
     return (
         <Routes>
