@@ -89,7 +89,7 @@ body {
     display: flex;
     justify-self: end;
     column-gap: 20px;
-    justify-content: end;
+    justify-content: flex-end;
     width: 100%;
     align-items: center;
 }
