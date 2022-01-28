@@ -1,10 +1,11 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 
-import Home from './components/Home'
 
 import './styles/global.css'
 import './styles/homepage.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Home from './components/Homepage/Home'
 
 function App() {
     return (

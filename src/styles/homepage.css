@@ -1,84 +1,142 @@
-/* Topbar */
+/* Recommendations */
 
-
-.topbar {
+.main-homepage {
     display: grid;
-    grid-template-columns: 27% 45% 28%;
-    align-items: center;
-    background-color: #212121;
-    color: white;
-    padding: 15px;
+    grid-template-columns: 9% 91%;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
+.sidenav {
+    background: #202020;
+    position: fixed;
+    left: 0;
+    right: 91%;
+    padding: 10px 0;
+    height: 100vh;
+    position: fixed;
 }
 
-.logo img {
-    height: 40px;
+.sidenav i {
+    color: #fff;
+    font-size: 20px;
     cursor: pointer;
 }
 
-.logo-title {
-    font-weight: bolder;
-    font-family: var(--roboto);
-    font-size: 25px;
-    letter-spacing: -1px;
-}
-
-.searchbar {
+.sidenav .sidenav-toggle {
     display: flex;
-    justify-content: center;
-}
-
-.searchbar .search {
-    width: 100%;
-    background: var(--body-color);
-    color: hsla(0, 100%, 100%, 0.88);
-    padding: 10px 10px;
-    outline: none;
-    border: 1px solid hsl(0, 0%, 18.82%);
-    font-size: 16px;
-
-}
-
-.searchbar .search-icon {
-    background-color: hsla(0, 0%, 100%, 0.08);
-    color: white;
+    margin: 10px 0;
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 0 30px;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.sidenav-icons {
+    display: grid;
+}
+
+.sidenav-icons .icon {
     font-size: 20px;
-}
-
-.extraicons {
-    display: flex;
-    justify-self: end;
-    column-gap: 20px;
-    justify-content: end;
+    cursor: pointer;
     width: 100%;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    color: white;
     align-items: center;
+    margin-bottom: 30px;
+    padding: 10px 0;
+    height: 100%;
 }
 
-.extraicons i, .extraicons .signin-btn {
+.sidenav-icons .icon p {
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: 'Roboto';
+    display: block;
+}
+
+.sidenav-icons .icon:hover {
+    background: rgb(54, 54, 54);
+}
+
+.recommendations {
+    margin-top: 30px;
+}
+
+.recommend-card {
+    color: white;
+    /* padding: 2% 5%; */
+}
+
+.recommend-card .video-img img {
+    width: 100%;
+}
+
+.recommend-card .video-img {
+    position: relative;
     cursor: pointer;
 }
 
-.signin-btn {
+.recommend-card .video-duration {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    padding: 1px 10px;
+    background: rgba(0, 0, 0, 0.9);
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.recommend-card .video-info {
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.recommend-card .video-info .video-title {
     display: flex;
-    color: var(--signin-color);
-    border: 1px solid var(--signin-color);
-    padding: 10px 20px;
+}
+
+.recommend-card .video-info .video-profile-img {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+}
+
+.recommend-card .video-info .video-title-text-div {
+    font-size: 1rem;
+    padding-left: 10px;
+}
+
+.recommend-card .video-info .video-title-text-div .video-title-text {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    max-height: 4rem;
+}
+
+.recommend-card .video-info .video-title-text-div .channel-name {
+    font-size: 13px;
+    color: #aaa;
     font-weight: bolder;
-    text-transform: uppercase;
-    font-family: var(--roboto);
 }
 
-.signin-icon {
-    padding-right: 5px;
-    font-size: 20px;
+.recommend-card .video-info .video-extra-info {
+    margin-top: 5px;
 }
 
-/* ---------- */
+.recommend-card .video-info .video-extra-info .video-views-div {
+    display: flex;
+}
+
+.recommend-card .video-info .video-extra-info .video-views,
+.recommend-card .video-info .video-extra-info .video-time {
+    color: #aaa;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.recommend-card .video-info .video-extra-info .video-views::after {
+    content: '•';
+    margin: 0 4px;
+}
