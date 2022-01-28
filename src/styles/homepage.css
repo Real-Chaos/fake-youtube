@@ -6,13 +6,12 @@
 }
 
 .sidenav {
-    background: #202020;
     position: fixed;
     left: 0;
     right: calc(100% - 80px);
-    padding: 10px 0;
     height: 100vh;
     position: fixed;
+    background: #212121;
 }
 
 .sidenav i {
@@ -22,12 +21,13 @@
 }
 
 .sidenav .sidenav-toggle {
-    display: flex;
-    margin: 10px 0;
+    height: 6.2%;
+    padding-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-bottom: 10px;
+    background: #202020;
 }
 
 .sidenav-icons {
