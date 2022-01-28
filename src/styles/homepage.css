@@ -15,9 +15,9 @@
 }
 
 .sidenav i {
+    cursor: pointer;
     color: #fff;
     font-size: 20px;
-    cursor: pointer;
 }
 
 .sidenav .sidenav-toggle {
