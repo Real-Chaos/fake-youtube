@@ -2,14 +2,14 @@
 
 .main-homepage {
     display: grid;
-    grid-template-columns: 9% 91%;
+    grid-template-columns: 80px calc(100% - 80px);
 }
 
 .sidenav {
     background: #202020;
     position: fixed;
     left: 0;
-    right: 91%;
+    right: calc(100% - 80px);
     padding: 10px 0;
     height: 100vh;
     position: fixed;
@@ -65,7 +65,8 @@
 
 .recommend-card {
     color: white;
-    /* padding: 2% 5%; */
+    margin: 10px 0;
+    /* padding: 2% 4%; */
 }
 
 .recommend-card .video-img img {
@@ -103,13 +104,12 @@
 }
 
 .recommend-card .video-info .video-title-text-div {
-    font-size: 1rem;
     padding-left: 10px;
 }
 
 .recommend-card .video-info .video-title-text-div .video-title-text {
     font-family: 'Roboto', 'Arial', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.7vw;
     line-height: 1.5rem;
     font-weight: 500;
     max-height: 4rem;

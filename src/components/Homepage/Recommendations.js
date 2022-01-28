@@ -30,7 +30,7 @@ const Recommendations = () => {
                     />
                     <RecommendedCard
                         img="https://i.ytimg.com/vi/fnwbhKVfT_o/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUUx9TShvywEUOPuik-91OnWHgKg"
-                        title="Chad Muslim educates Ignorant fool of a christian"
+                        title="Chad Muslim educates Ignorant fool"
                         channelProfile="https://yt3.ggpht.com/ytc/AKedOLRoLjwckV1y_O2Cl2em8qhmf1AryYOKYjn6OEWmqA=s68-c-k-c0x00ffffff-no-rj"
                         channelName="The deen talk"
                         videoViews="100M"
