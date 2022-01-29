@@ -20,15 +20,6 @@ const Recommendations = () => {
                         videoPostTime="5 hours ago"
                     />
                     <RecommendedCard
-                        img="https://i.ytimg.com/vi/0oV1ZZ_ci20/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCB7a6hNXepXNsPPdI1xYWLqd1SsA"
-                        title="How ugly they look without Hijab"
-                        channelProfile="https://yt3.ggpht.com/bbR1pdJiX8IlhgxJAGbhVURrlnkiD4C6pjuvHnQvB_EHW3e3WCY9QWMbPVZyxxNi0x2e0zYy=s68-c-k-c0x00ffffff-no-rj"
-                        channelName="Reality Show"
-                        videoViews="600K"
-                        videoDuration="9:45"
-                        videoPostTime="1 hours ago"
-                    />
-                    <RecommendedCard
                         img="https://i.ytimg.com/vi/fnwbhKVfT_o/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUUx9TShvywEUOPuik-91OnWHgKg"
                         title="Chad Muslim educates Ignorant fool"
                         channelProfile="https://yt3.ggpht.com/ytc/AKedOLRoLjwckV1y_O2Cl2em8qhmf1AryYOKYjn6OEWmqA=s68-c-k-c0x00ffffff-no-rj"
