@@ -1,0 +1,30 @@
+.video-form-section {
+    background: #282828;
+    height: 100vh;
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.video-form-section-text {
+    text-align: center;
+}
+
+
+.video-upload-btn {
+    background: #3ea6ff;
+    color: black;
+    padding: 7px 20px;
+    width: fit-content !important;
+    text-transform: uppercase;
+    font-family: var(--roboto);
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    margin: 10px auto;
+    display: block;
+}

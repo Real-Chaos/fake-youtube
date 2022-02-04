@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import GoogleLogin from 'react-google-login'
+import { Link } from 'react-router-dom'
 
 const Topbar = () => {
     const [loginData, setLoginData] = useState(
@@ -69,13 +70,13 @@ const Topbar = () => {
                             <img
                                 onClick={showProfile}
                                 className="loggedin-img"
-                                src={loginData.picture}
+                                src={loginData.profile}
                                 alt=""
                             />
                             <div className="user-profile">
                                 <div className="profile-section1">
                                     <img
-                                        src={loginData.picture}
+                                        src={loginData.profile}
                                         alt=""
                                         className="profile-img"
                                     />
@@ -84,11 +85,25 @@ const Topbar = () => {
                                     </h6>
                                 </div>
                                 <div className="profile-section2">
-                                    <div className="signout">
+                                    <div className="profile-section2-div create-video">
+                                        <Link to="/new-video"><i className="fas fa-video"></i></Link>
+                                        <Link
+                                            to="/new-video"
+                                            className="profile-section2-text"
+                                        >
+                                            Upload Video
+                                        </Link>
+                                    </div>
+                                    <div className="profile-section2-div signout">
                                         <p onClick={handleLogout}>
                                             <i className="fas fa-sign-out-alt"></i>
                                         </p>
-                                        <p onClick={handleLogout}>Sign out</p>
+                                        <p
+                                            className="profile-section2-text"
+                                            onClick={handleLogout}
+                                        >
+                                            Sign out
+                                        </p>
                                     </div>
                                 </div>
                             </div>

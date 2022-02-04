@@ -61,6 +61,7 @@
 
 .recommendations {
     margin-top: 30px;
+    padding: 0 3%;
 }
 
 .recommend-card {
@@ -69,13 +70,25 @@
     /* padding: 2% 4%; */
 }
 
-.recommend-card .video-img img {
+.recommend-card .video-img video {
+    width: 100%;
+}
+
+.video-react-control-bar {
+    z-index: 3;
     width: 100%;
 }
 
 .recommend-card .video-img {
     position: relative;
     cursor: pointer;
+    transition: 1s;
+}
+
+.recommend-card .video-img:hover {
+    transition: 1s;
+    transform: scale(1.2);
+    z-index: 10000000000000;
 }
 
 .recommend-card .video-duration {
@@ -140,3 +153,17 @@
     margin: 0 4px;
 }
 
+.video-react .video-react-control-bar {
+    width: 100%;
+    contain: content;
+}
+
+@media screen and (max-width: 800px) {
+    .main-homepage {
+        grid-template-columns: 0% 100%;
+    }
+
+    .sidenav {
+        display: none;
+    }
+}
